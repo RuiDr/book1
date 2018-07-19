@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.book-left {
+	width: 12%;
+	height: 100%;
+	background: #4d5e70;
+	float: left;
+}
+
+
+/*标题的style*/
+
+.logoDiv {
+	background: #354457;
+	height: 70px;
+}
+
+.logoImg {
+	width: 30px;
+	float: left;
+	margin: 20px 0px 0px 20px;
+}
+
+.logoTitle {
+	color: white;
+	font-size: 18px;
+	margin-top: 2px;
+	float: right;
+	margin: 22px 20px 0px 0px;
+}
+
+
+/*用户名style*/
+
+.user_name {
+	border-bottom: 1px solid #354457;
+	color: #B3BCC5;
+	padding: 20px 0px 20px 20px;
+}
+
+.date {
+	margin: 5px 0px;
+}
+
+.back_login {
+	text-decoration: none;
+	font-size: 15px;
+	color: #354457;
+}
+
+.book-title,
+.user-title {
+	margin-top: 10px;
+	padding: 5px 0 5px 15px;
+	color: #B3BCC5;
+	background: url(../img/icon_rule_grey.png) no-repeat 90px center;
+	background-size: 13%;
+	cursor: pointer;
+}
+
+#bookKind {
+	background: url(../img/icon_user_grey.png) no-repeat 20px center;
+	background-size: 10%;
+}
+
+#bookInfo {
+	background: url(../img/icon_source_grey.png) no-repeat 20px center;
+	background-size: 10%;
+}
+
+#borrowBook {
+	background: url(../img/icon_user_grey.png) no-repeat 20px center;
+	background-size: 10%;
+}
+
+#returnBook {
+	background: url(../img/icon_source_grey.png) no-repeat 20px center;
+	background-size: 10%;
+}
+
+#userInfo {
+	background: url(../img/icon_card_grey.png) no-repeat 20px center;
+	background-size: 13%;
+}
+
+#upadtePasw {
+	background: url(../img/icon_change_grey.png) no-repeat 20px center;
+	background-size: 13%;
+}
+
+.btn {
+	border: none;
+	width: 100%;
+	/*（轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。*/
+	outline: none;
+	background: #4D5E70;
+	color: #B3BCC5;
+	font-size: 13px;
+	padding: 10px 0px 10px 50px;
+	text-align: left;
+	cursor: pointer;
+}
+
+.navi {
+	display: none;
+}
+
+.navi:hover {
+	background: #333333;
+	background-position-x: 40px;
+	padding-left: 30px;
+}
+
+.book-right {
+	width: 88%;
+	height: 100%;
+	background-color: #eff3f6;
+	float: left;
+}
+
+.book-right iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}

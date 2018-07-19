@@ -1,0 +1,27 @@
+* {
+	
+	margin: 0;
+	padding: 0;
+}
+.update{
+	width:150px;
+	height:50px;
+	right: 600px;
+	position:absolute;
+}
+.submit_Class {
+	width: 100px;
+	height: 40px;
+	margin-top: 30px;
+	right: 600px;
+	border: none;
+	background: rgb(220, 140, 151);
+	margin-top: 20px;
+	color: white;
+	position:absolute;
+}
+.p_Class{
+	width:0px;
+	height:0px;
+	right:20px;
+}
